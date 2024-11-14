@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div id="c1">
+    <img src="./download-removebg-preview.png">
+    <div>
+      <img class="image" src="./IMG_3004.JPG">
+    </div>
+    <div>
+      <h1 id="h1">Nikhil Argonda</h1>
+    <h2>Trainee</h2>
+    </div>
+    <div class="info">
+      <p class="info">ID NO : 294579209</p>
+      <p class="info">DOB   : 15-06-2001</p>
+      <p class="info">PHONE NO  : 9381691346</p>
+    </div>
+    
+   
+  </div>
+    <script>
+     let x= document.getElementById("c1")
+     x.style.backgroundImage="URL(./idback.jpg)";
+     x.style.border="2px solid";
+     x.style.borderRadius="10px";
+     x.style.height="319px";
+     x.style.width="236px";
+     x.style.textAlign="center";
+     
+     
+
+     let imgg=document.getElementsByTagName("img");
+     imgg[0].style.height="30px";
+     imgg[0].style.marginTop="20px";
+
+
+
+     let im=document.getElementsByClassName("image");
+     im[0].style.border="1px solid";
+     im[0].style.height="70px";
+     im[0].style.borderRadius="100%";
+
+     let y = document.getElementById("h1");
+     y.style.fontSize="20px"
+
+     let ip = document.getElementsByClassName("info")
+     ip[0].style.fontSize="10px"
+     ip[0].style.textAlign="left";
+     ip[0].style.marginLeft="75px"
+    </script>
+</body>
+</html>
